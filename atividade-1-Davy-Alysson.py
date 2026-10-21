@@ -8,4 +8,4 @@ for i in range(5):
     numeros.append(numero)
     
 print(f'Números em ordem: {numeros}')
-print(f'Números inversos: {numeros[4], numeros[3], numeros[2], numeros[1], numeros[0]}')
+print(f'Números inversos: {numeros[: : -1]}')
